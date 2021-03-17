@@ -17,6 +17,7 @@ set nobackup
 set nowritebackup
 set colorcolumn=80
 set signcolumn=yes
+set mouse=n  "allow mouse to drag splits
 imap jj <Esc>
 
 "install plugins
@@ -46,7 +47,7 @@ function! s:show_documentation()
   endif
 endfunction
 
-colorscheme gruvbox
+"colorscheme gruvbox
 set background=dark
 
 "key to press into special mode
@@ -58,4 +59,4 @@ nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
-nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 50<CR>
