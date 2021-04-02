@@ -26,7 +26,11 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'gruvbox-community/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
+Plug 'tomasiser/vim-code-dark'
 call plug#end()
+
+colorscheme codedark
+let g:airline_theme = 'codedark'
 
 "creates space to show lightline info
 set laststatus=2
@@ -48,7 +52,7 @@ function! s:show_documentation()
 endfunction
 
 "colorscheme gruvbox
-set background=dark
+"set background=dark
 
 "key to press into special mode
 let mapleader = " "
