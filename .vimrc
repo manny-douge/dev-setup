@@ -18,6 +18,7 @@ set nowritebackup
 set colorcolumn=80
 set signcolumn=yes
 set mouse=n  "allow mouse to drag splits
+set hlsearch
 imap jj <Esc>
 
 "install plugins
