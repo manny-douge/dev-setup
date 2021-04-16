@@ -58,7 +58,7 @@ endfunction
 "key to press into special mode
 let mapleader = " "
 
-
+"meep zop
 "n - normal mode nore - not recursive map = map
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
